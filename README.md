@@ -26,10 +26,10 @@ bash get_models.sh
 ```
 
 ## Clone this Video Reader project:
-
+``` bash
 git clone https://github.com/stejabhat/video-reader-project.git
 cd video-reader-project
-
+```
 ## Install dependencies (optional, if using virtual environment):
 python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
