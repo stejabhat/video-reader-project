@@ -34,12 +34,15 @@ git clone https://github.com/stejabhat/video-reader-project.git
 cd video-reader-project
 ```
 ## Install dependencies (optional, if using virtual environment):
+``` bash
 python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 # .venv\Scripts\activate     # Windows
 pip install -r requirements.txt
-
+```
 # how to run
+``` bash
 python analyze_video.py --model-path /path/to/checkpoint-dir \
                         --video <path_to_your_video>\
                         --prompt "Describe the image."
+```
