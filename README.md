@@ -20,7 +20,7 @@ A Python project that leverages **FastVLM** to analyze and interpret video conte
 1. **Clone FastVLM repository**:
 
 ```bash
-git clone **https://github.com/apple/ml-fastvlm.git
+git clone https://github.com/apple/ml-fastvlm.git
 cd fastvlm
 conda create -n fastvlm python=3.10
 conda activate fastvlm
