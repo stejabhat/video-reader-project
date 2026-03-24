@@ -1,7 +1,6 @@
 # 🎥 Video Reader using FastVLM
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 A Python project that leverages **FastVLM** to analyze and interpret video content efficiently. Perfect for video understanding, research, or building AI-powered media tools.
 
