@@ -20,8 +20,11 @@ A Python project that leverages **FastVLM** to analyze and interpret video conte
 1. **Clone FastVLM repository**:
 
 ```bash
-git clone https://github.com/<fastvlm-repo>
+git clone **https://github.com/<fastvlm-repo>**https://github.com/apple/ml-fastvlm.git
 cd fastvlm
+conda create -n fastvlm python=3.10
+conda activate fastvlm
+pip install -e .
 bash get_models.sh
 ```
 
@@ -37,4 +40,6 @@ source .venv/bin/activate   # Mac/Linux
 pip install -r requirements.txt
 
 # how to run
-python analyze_video.py --video <path_to_your_video>
+python analyze_video.py --model-path /path/to/checkpoint-dir \
+                        --video <path_to_your_video>\
+                        --prompt "Describe the image."
